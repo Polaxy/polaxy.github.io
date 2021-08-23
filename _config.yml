@@ -1,0 +1,38 @@
+title: "Polaxy"
+timezone: CST
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: pixel
+disqus: 
+paginate: 30
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-204884121-1
+
+# Authors
+authors:
+  pixel:
+    name: pixel
+    display_name: pixel
+    avatar: 'assets/images/pixel.png'
+    description: "Author of Polaxy, Polaxy is a multi-purpose Discord bot packed with many useful features."
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
